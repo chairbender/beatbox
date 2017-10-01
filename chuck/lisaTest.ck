@@ -1,0 +1,11 @@
+OscSend xmit;
+xmit.setHost("127.0.0.1",6450);
+xmit.startMsg("/addLoop","iiifif");
+xmit.addInt(0);
+xmit.addInt(2);
+xmit.addInt(0);
+xmit.addFloat(0.1);
+xmit.addInt(1);
+xmit.addFloat(0.2);
+xmit.addInt(2);
+xmit.addFloat(0.3);
